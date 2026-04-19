@@ -6,7 +6,7 @@ import {
   Clock, 
   CheckCircle,
   Plus
-} from '@phosphor-icons/react';
+} from 'lucide-react';
 import { useState, useEffect } from 'react';
 
 export function WelcomeSection() {

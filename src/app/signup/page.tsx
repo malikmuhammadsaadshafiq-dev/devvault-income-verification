@@ -2,7 +2,7 @@
 
 import { useState } from 'react';
 import { motion } from 'framer-motion';
-import { ArrowLeft, Envelope, Github, Building } from '@phosphor-icons/react';
+import { ArrowLeft, Envelope, Github, Building } from 'lucide-react';
 import Link from 'next/link';
 
 export default function SignupPage() {

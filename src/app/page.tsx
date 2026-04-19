@@ -1,13 +1,13 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import { ArrowRight, Download, Shield, Zap, Bank, Settings, FileText } from '@phosphor-icons/react';
+import { ArrowRight, Download, Shield, Zap, Building2, Settings, FileText } from 'lucide-react';
 import Link from 'next/link';
 
 const features = [
   {
-    icon: Bank,
-    title: "Bank Statement Analysis",
+    icon: Building2,
+    title: "Building2 Statement Analysis",
     description: "Upload CSV/PDF statements and get instant income categorization and verification reports."
   },
   {
@@ -107,7 +107,7 @@ export default function LandingPage() {
                         <span className="text-sm text-green-600 font-mono">$2,847.50</span>
                       </div>
                       <div className="flex items-center justify-between p-3 bg-slate-50 rounded-lg">
-                        <span className="text-sm font-medium">Bank Deposits</span>
+                        <span className="text-sm font-medium">Building2 Deposits</span>
                         <span className="text-sm text-blue-600 font-mono">$3,125.00</span>
                       </div>
                       <div className="w-full h-2 bg-slate-200 rounded-full overflow-hidden">

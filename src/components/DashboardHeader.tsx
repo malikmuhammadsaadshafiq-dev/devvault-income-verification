@@ -6,7 +6,7 @@ import {
   Search, 
   User,
   Menu 
-} from '@phosphor-icons/react';
+} from 'lucide-react';
 import { useState } from 'react';
 
 export function DashboardHeader() {

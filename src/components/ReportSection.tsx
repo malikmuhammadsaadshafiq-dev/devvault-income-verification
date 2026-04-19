@@ -10,7 +10,7 @@ import {
   CheckCircle,
   AlertCircle,
   Plus
-} from '@phosphor-icons/react';
+} from 'lucide-react';
 import { 
   BarChart, 
   Bar, 

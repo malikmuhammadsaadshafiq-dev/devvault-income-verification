@@ -8,7 +8,7 @@ import {
   Coffee, 
   ArrowRight,
   Check
-} from '@phosphor-icons/react';
+} from 'lucide-react';
 
 interface Connection {
   id: string;

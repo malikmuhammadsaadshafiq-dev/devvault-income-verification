@@ -11,7 +11,7 @@ import {
   CheckCircle,
   AlertCircle,
   Loader
-} from '@phosphor-icons/react';
+} from 'lucide-react';
 import { clsx } from 'clsx';
 
 interface UploadedFile {
@@ -120,7 +120,7 @@ export function UploadSection({ standalone = false }: { standalone?: boolean }) 
     <section className={standalone ? "mt-8" : ""}>
       {!standalone && (
         <div className="flex items-center justify-between mb-6">
-          <h2 className="text-2xl font-bold text-slate-900">Upload Bank Statements</h2>
+          <h2 className="text-2xl font-bold text-slate-900">Upload Building2 Statements</h2>
           <button className="text-sm text-indigo-600 hover:text-indigo-700 font-medium">
             see history
           </button>

@@ -8,7 +8,7 @@ import {
   FileText, 
   Settings,
   LogOut
-} from '@phosphor-icons/react';
+} from 'lucide-react';
 import { cva } from 'class-variance-authority';
 import Link from 'next/link';
 
