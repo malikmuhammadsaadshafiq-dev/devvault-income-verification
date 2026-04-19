@@ -2,7 +2,7 @@
 
 import { useState } from 'react';
 import { motion } from 'framer-motion';
-import { ArrowLeft, Mail, Github, Building } from 'lucide-react';
+import { ArrowLeft, Mail, Github, Building2 } from 'lucide-react';
 import Link from 'next/link';
 
 export default function SignupPage() {
