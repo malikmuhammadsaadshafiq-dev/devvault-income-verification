@@ -57,7 +57,7 @@ export default function LandingPage() {
               transition={{ duration: 0.8, ease: 'easeOut' }}
             >
               <div className="inline-flex items-center gap-2 bg-indigo-100 text-indigo-700 px-4 py-2 rounded-full text-sm font-medium mb-6">
-                <Shield weight="fill" className="w-4 h-4" />
+                <Shield className="w-4 h-4" />
                 <span>Trusted by 10,000+ developers</span>
               </div>
               
@@ -153,7 +153,7 @@ export default function LandingPage() {
                   className="premium-card hover:-translate-y-1"
                 >
                   <div className="inline-flex items-center justify-center w-12 h-12 bg-indigo-100 text-indigo-600 rounded-lg mb-4">
-                    <Icon weight="fill" className="w-6 h-6" />
+                    <Icon className="w-6 h-6" />
                   </div>
                   <h3 className="text-xl font-semibold text-slate-900 mb-2">{feature.title}</h3>
                   <p className="text-slate-600 leading-relaxed">{feature.description}</p>

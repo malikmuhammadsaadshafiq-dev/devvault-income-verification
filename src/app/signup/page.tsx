@@ -2,7 +2,7 @@
 
 import { useState } from 'react';
 import { motion } from 'framer-motion';
-import { ArrowLeft, Envelope, Github, Building } from 'lucide-react';
+import { ArrowLeft, Mail, Github, Building } from 'lucide-react';
 import Link from 'next/link';
 
 export default function SignupPage() {
@@ -56,7 +56,7 @@ export default function SignupPage() {
                 disabled={loading}
                 className="w-full flex items-center justify-center gap-3 bg-slate-900 text-white px-4 py-3 rounded-xl font-medium hover:bg-slate-800 transition-colors disabled:opacity-50"
               >
-                <Github weight="fill" className="w-5 h-5" />
+                <Github className="w-5 h-5" />
                 Continue with GitHub
               </button>
               
@@ -65,7 +65,7 @@ export default function SignupPage() {
                 disabled={loading}
                 className="w-full flex items-center justify-center gap-3 border border-slate-300 bg-white text-slate-700 px-4 py-3 rounded-xl font-medium hover:bg-slate-50 transition-colors disabled:opacity-50"
               >
-                <Building weight="fill" className="w-5 h-5" />
+                <Building2 className="w-5 h-5" />
                 Continue with Google
               </button>
             </div>
@@ -87,7 +87,7 @@ export default function SignupPage() {
                   Email Address
                 </label>
                 <div className="relative">
-                  <Envelope className="absolute left-3 top-1/2 -translate-y-1/2 w-5 h-5 text-slate-400" />
+                  <Mail className="absolute left-3 top-1/2 -translate-y-1/2 w-5 h-5 text-slate-400" />
                   <input
                     id="email"
                     type="email"

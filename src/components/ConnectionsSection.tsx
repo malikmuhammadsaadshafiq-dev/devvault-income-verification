@@ -4,7 +4,7 @@ import { useState } from 'react';
 import { motion } from 'framer-motion';
 import { 
   CreditCard, 
-  GithubLogo, 
+  Github, 
   Coffee, 
   ArrowRight,
   Check
@@ -38,7 +38,7 @@ const connections: Connection[] = [
     id: 'github',
     name: 'GitHub Sponsors',
     description: 'Link your GitHub Sponsors profile',
-    icon: GithubLogo,
+    icon: Github,
     status: 'connected',
     lastSync: '1 day ago',
     earnings: 847.25,
@@ -92,7 +92,7 @@ export function ConnectionsSection({ standalone = false }: { standalone?: boolea
           >
             <div className="flex items-start justify-between mb-4">
               <div className={`p-3 rounded-lg ${connection.bgColor} ${connection.color}`}>
-                <connection.icon weight="fill" className="w-6 h-6" />
+                <connection.icon className="w-6 h-6" />
               </div>
               
               {connectionStates[connection.id] === 'connected' && (

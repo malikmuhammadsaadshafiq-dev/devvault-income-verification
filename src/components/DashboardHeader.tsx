@@ -57,7 +57,7 @@ export function DashboardHeader() {
             whileTap={{ scale: 0.98 }}
           >
             <div className="w-8 h-8 bg-gradient-to-br from-indigo-400 to-mint-400 rounded-full flex items-center justify-center">
-              <User weight="fill" className="w-4 h-4 text-white" />
+              <User className="w-4 h-4 text-white" />
             </div>
             <span className="hidden lg:block text-sm font-medium text-slate-900">Alex Chen</span>
           </motion.button>
